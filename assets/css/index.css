@@ -22,3 +22,25 @@ header {height: 100px; background-color: #222;}
 .banner .swiper-pagination {margin-bottom: 50px;}
 .banner .swiper-pagination-bullet {width: 15px; height: 15px; border: 2px solid #B28756; background-color: transparent;}
 .banner .swiper-pagination-bullet-active {background: #B28756;}
+
+.default {padding: 50px 0; margin: 0 2%;}
+.default h3 {font-size: 25px;}
+.default p {font-size: 10px; margin: 10px 0 40px 0; font-weight: bold; color: #CCC;}
+.default h3, p {text-align: center;}
+.default a {font-size: 12px;  background-color: #B28756; color: #F6F6F6; font-weight: 600; text-decoration: none; padding: 10px 30px; border-radius: 10px;}
+.default-body {max-width: 1440px; margin: auto;}
+.light {background-color: #F6F6F6;}
+.light .default-body {color: #222;}
+.dark {background-color: #222;}
+.dark .default h3 {color: #F6F6F6;}
+.dark .default-body {color: #CCC;}
+
+.about-us {display: flex; align-items: center; justify-content: center; gap: 20px;}
+.about-us--left {text-align: end; width: 580px; }
+.about-us--left p {font-size: 18px; font-weight: 500; text-align: end; color: #222; margin-bottom: 20px; }
+.about-us--right img {width: 480px; box-shadow: 10px 10px 10px #333;}
+
+.services {display: flex;}
+.service {flex: 1; text-align: center; padding: 20px 10px 0 10px;}
+.service h3 {margin-top: 20px; font-size: 18px;}
+.service p {margin-top: 10px; color: #CCC; font-size: 13px;}
