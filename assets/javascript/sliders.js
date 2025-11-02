@@ -14,3 +14,11 @@ const teamSwiper = new Swiper('.swiper-team', {
     delay: 3000,
   },
 });
+
+const testimonialsSwiper = new Swiper('.swiper-testimonials', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: { el: '.swiper-pagination', clickable: true},
+  autoplay: {delay: 3000,},
+});

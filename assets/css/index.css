@@ -70,3 +70,13 @@ header {height: 100px; background-color: #222;}
 .team-social {display: flex;}
 .team-social a {display: inline-flex; justify-content: center; align-items: center; width: 25px; height: 25px; padding: 20px; margin: 0 2px; border-radius: 25px; background-color: #CCC;}
 .team-social a:hover {background-color: #B28756;}
+
+.swiper-testimonials .swiper-slide {display: flex; flex-direction: column; justify-content: center; align-items:center;}
+.testimonials-avatar {width:100px; border-radius: 50%;}
+.testimonials-name {font-size: 18px !important; color: #222 !important; margin: 30px 0 0 0 !important;}
+.testimonials-role {font-size: 14px; margin: 5px 0 0 0 !important; color: #999 !important;}
+.testimonials--quoteImg {margin-top: 30px;}
+.testimonials-quote {margin-top: 10px; color: #222 !important; font-weight: normal !important; font-size: 13px !important; max-width: 700px; color: #555; text-align: center; line-height:25px;}
+.swiper-testimonials .swiper-pagination {margin-bottom: 0px;}
+.swiper-testimonials .swiper-pagination-bullet {width: 15px; height: 15px; border: 2px solid #B28756; background-color: transparent;}
+.swiper-testimonials .swiper-pagination-bullet-active {background: #B28756;}
