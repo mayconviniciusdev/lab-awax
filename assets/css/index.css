@@ -13,7 +13,7 @@ header {height: 100px; background-color: #222;}
 .menu .active a, .menu li a:hover{ border-bottom: 4px solid #B28756; color: #CCC;}
 
 .banner {height: calc(100vh - 100px); background-image: url(/assets/images/bgBanner.png); background-size: cover; background-position: top;}
-.banner .swiper, .banner.swiper-wrapper, .banner .swiper-slide {height: 100%;}
+.banner .swiper, .banner .swiper-wrapper, .banner .swiper-slide {height: 100%;}
 .banner .swiper-slide {display: flex; flex-direction: column; justify-content: center; align-items: center; color: #F6F6F6;}
 .banner h1 {font-size: 50px; font-weight: bold; text-align: center;}
 .banner h1 span {color: #B28756}
@@ -60,3 +60,13 @@ header {height: 100px; background-color: #222;}
 .photo-modal img {display: block; margin: auto; border-radius: 20px;}
 .photo-modal .close {position: absolute; top: 20px;right: 40px; color: #F6F6F6; font-size: 40px; font-weight: bold; cursor: pointer; transition: 0.3s;}
 .photo-modal .close:hover {color: #B28756;}
+
+.team {background-image: url(/assets/images/bgTeam.png); background-size: cover; background-position: center;}
+.team .default-body {max-width:880px;}
+.swiper-team .swiper-slide {display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #F6F6F6; border-radius: 10px; padding: 40px 0px;}
+.team-avatar {width: 150px; height: auto; border-radius: 50%;}
+.team-name {color: #222 !important; font-size: 18px !important; margin: 30px 0 0 0 !important;}
+.team-role {font-size: 14px !important; margin-top: 5px !important; color: #999 !important;}
+.team-social {display: flex;}
+.team-social a {display: inline-flex; justify-content: center; align-items: center; width: 25px; height: 25px; padding: 20px; margin: 0 2px; border-radius: 25px; background-color: #CCC;}
+.team-social a:hover {background-color: #B28756;}
