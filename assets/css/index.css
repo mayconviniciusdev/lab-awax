@@ -36,11 +36,27 @@ header {height: 100px; background-color: #222;}
 .dark .default-body {color: #CCC;}
 
 .about-us {display: flex; align-items: center; justify-content: center; gap: 20px;}
-.about-us--left {text-align: end; width: 580px; }
-.about-us--left p {font-size: 18px; font-weight: 500; text-align: end; color: #222; margin-bottom: 20px; }
+.about-us--left {text-align: end; width: 580px;}
+.about-us--left p {font-size: 18px; font-weight: 500; text-align: end; color: #222; margin-bottom: 20px;}
 .about-us--right img {width: 480px; box-shadow: 10px 10px 10px #333;}
 
 .services {display: flex;}
 .service {flex: 1; text-align: center; padding: 20px 10px 0 10px;}
 .service h3 {margin-top: 20px; font-size: 18px;}
 .service p {margin-top: 10px; color: #CCC; font-size: 13px;}
+
+.projects {display: flex; flex-direction: column; align-items: center;}
+.projects a {margin-top: 30px; padding: 10px 50px;}
+.projects-filters {border: 1px solid #CCC; background-color: #EEE; border-radius: 20px; display: inline-block; padding: 0 20px;}
+.projects-filters li {list-style-type: none; cursor: pointer; display: inline-block; padding: 15px; font-size: 12px; border-left: 1px solid #CCC; color: #555;}
+.projects-filters li:first-child {border: 0;}
+.projects-filters li:hover, .projects-filters li.active{color: #B28756; font-weight: bold;}
+.projects-photos {display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 20px; gap: 20px;}
+.projects-photo {width: 270px; height: 170px; cursor: pointer; background-color: #B28756}
+.projects-photo img {width: inherit; height: inherit;}
+.projects-photo img:hover {opacity: 0.7;}
+.photo-modal {position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.9); z-index: 1000; display: none;}
+.photo-modal.active {display: flex;}
+.photo-modal img {display: block; margin: auto; border-radius: 20px;}
+.photo-modal .close {position: absolute; top: 20px;right: 40px; color: #F6F6F6; font-size: 40px; font-weight: bold; cursor: pointer; transition: 0.3s;}
+.photo-modal .close:hover {color: #B28756;}
