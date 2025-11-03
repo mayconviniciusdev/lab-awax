@@ -8,11 +8,9 @@ const bannerSwiper = new Swiper('.swiper-banner', {
 
 const teamSwiper = new Swiper('.swiper-team', {
   loop: true,
-  slidesPerView: 3,
   spaceBetween: 20,
-  autoplay: {
-    delay: 3000,
-  },
+  autoplay: {delay: 3000},
+  breakpoints: {0: {slidesPerView: 1,}, 768: {slidesPerView: 2,}, 1024: {slidesPerView: 3,}},
 });
 
 const testimonialsSwiper = new Swiper('.swiper-testimonials', {
