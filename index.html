@@ -22,18 +22,17 @@
           </div>
 
           <div class="menu">
-            <img src="/assets/images/menu.png" class="menu-opener">
+            <img src="/assets/images/menu.png" class="menu-opener" id="menu-btn">
 
-            <nav>
+            <nav id="nav">
               <ul>
-                <li class="active"><a href="">INÍCIO</a></li>
-                <li><a href="">SOBRE NÓS</a></li>
-                <li><a href="">SERVIÇOS</a></li>
-                <li><a href="">PROJETOS</a></li>
-                <li><a href="">NOSSA EQUIPE</a></li>
-                <li><a href="">NOSSOS CLIENTES</a></li>
-                <li><a href="">PREÇOS</a></li>
-                <li><a href="">CONTATO</a></li>
+                <li class="active"><a href="#home">INÍCIO</a></li>
+                <li><a href="#about">SOBRE NÓS</a></li>
+                <li><a href="#services">SERVIÇOS</a></li>
+                <li><a href="#projects">PROJETOS</a></li>
+                <li><a href="#team">NOSSA EQUIPE</a></li>
+                <li><a href="#clients">NOSSOS CLIENTES</a></li>
+                <li><a href="#contact">CONTATO</a></li>
               </ul>
             </nav>
           </div>
@@ -48,19 +47,19 @@
             <div class="swiper-slide">
               <h1>DESIGN É SOBRE <br/> <span>COMUNICAÇÃO</span></h1>
               <p>LIGUE PARA NÓS: (67) 6492-2777</p>
-              <a href="">ENTRE EM CONTATO!</a>
+              <a href="#contact">ENTRE EM CONTATO!</a>
             </div>
 
             <div class="swiper-slide">
                <h1>TRANSFORME IDEIAS <br/> EM <span>EXPERIÊNCIAS</span></h1>
                 <p>Criação de identidades visuais e interfaces impactantes.</p>
-                <a href="">CONHEÇA NOSSOS SERVIÇOS</a>
+                <a href="#services">CONHEÇA NOSSOS SERVIÇOS</a>
             </div>
 
             <div class="swiper-slide">
               <h1>SUA MARCA, <br/> NOSSA <span>CRIATIVIDADE</span></h1>
               <p>Projetos personalizados que comunicam com propósito.</p>
-              <a href="">VEJA NOSSOS PROJETOS</a>
+              <a href="#projects">VEJA NOSSOS PROJETOS</a>
             </div>
           </div>
 
@@ -68,7 +67,7 @@
         </div>
       </section>
 
-      <section class="light">
+      <section class="light" id="about">
         <div class="default">
           <h3>SOBRE NÓS</h3>
           <p>QUEM SOMOS NÓS?</p>
@@ -88,7 +87,7 @@
         </div>
       </section>
 
-      <section class="dark">
+      <section class="dark" id="services">
         <div class="default">
           <h3>SERVIÇOS</h3>
           <p>SERVIÇOS QUE PRESTAMOS</p>
@@ -123,7 +122,7 @@
         </div>
       </section>
       
-      <section class="light">
+      <section class="light" id="projects">
         <div class="default">
           <h3>NOSSOS PROJETOS</h3>
           <p>O QUE CRIAMOS?</p>
@@ -217,7 +216,7 @@
         </div>
       </section>
 
-      <section class="dark team">
+      <section class="dark team" id="team">
         <div class="default">
           <h3>NOSSO TIME</h3>
           <p>COLEGAS DE TRABALHO</p>
@@ -269,7 +268,7 @@
         </div>
       </section>
 
-      <section class="light testimonials">
+      <section class="light testimonials" id="clients">
         <div class="default">
           <h3>NOSSOS CLIENTES</h3>
           <p>AVALIAÇÕES DE CLIENTES</p>
@@ -337,7 +336,7 @@
         </div>
       </section>
 
-      <section class="light">
+      <section class="light" id="contact">
         <div class="default default-contact">
           <h3>ENTRE EM CONTATO CONOSCO</h3>
           <p>NOSSA AGÊNCIA ESTÁ LOCALIZADA EM PASSO FUNDO, BRASIL</p>
@@ -413,5 +412,7 @@
     <script src="/assets/javascript/sliders.js"></script>
     <script src="/assets/javascript/projects-filter.js"></script>
     <script src="/assets/javascript/projects-modal.js"></script>
+    <script src="/assets/javascript/menu-button.js"></script>
+    <script src="assets/javascript/smoth-scroll.js"></script>
   </body>
 </html>
