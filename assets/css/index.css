@@ -28,7 +28,7 @@ header {height: 100px; background-color: #222;}
 .default h3 {font-size: 25px;}
 .default p {font-size: 10px; margin: 10px 0 40px 0; font-weight: bold; color: #CCC;}
 .default h3, p {text-align: center;}
-.default a {font-size: 12px;  background-color: #B28756; color: #F6F6F6; font-weight: 600; text-decoration: none; padding: 10px 30px; border-radius: 10px;}
+.default a, .projects button {font-size: 12px;  background-color: #B28756; color: #F6F6F6; font-weight: 600; text-decoration: none; padding: 10px 30px; border-radius: 10px;}
 .default-body {max-width: 1440px; margin: auto;}
 .light {background-color: #F6F6F6;}
 .light .default-body {color: #222;}
@@ -47,7 +47,7 @@ header {height: 100px; background-color: #222;}
 .service p {margin-top: 10px; color: #CCC; font-size: 13px;}
 
 .projects {display: flex; flex-direction: column; align-items: center;}
-.projects a {margin-top: 30px; padding: 10px 50px;}
+.projects button {margin-top: 30px; padding: 10px 50px; border: 0; cursor: pointer;}
 .projects-filters {border: 1px solid #CCC; background-color: #EEE; border-radius: 20px; display: inline-block; padding: 0 20px;}
 .projects-filters li {list-style-type: none; cursor: pointer; display: inline-block; padding: 15px; font-size: 12px; border-left: 1px solid #CCC; color: #555;}
 .projects-filters li:first-child {border: 0;}
@@ -57,10 +57,9 @@ header {height: 100px; background-color: #222;}
 .projects-photo img {width: inherit; height: inherit;}
 .projects-photo img:hover {opacity: 0.7;}
 .photo-modal {position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.9); z-index: 1000; display: none;}
-.photo-modal.active {display: flex;}
-.photo-modal img {display: block; margin: auto; border-radius: 20px;}
-.photo-modal .close {position: absolute; top: 20px;right: 40px; color: #F6F6F6; font-size: 40px; font-weight: bold; cursor: pointer; transition: 0.3s;}
-.photo-modal .close:hover {color: #B28756;}
+.photo-modal img {margin: auto; border-radius: 20px;}
+.photo-modal .close-modal {position: absolute; top: 20px; right: 40px; color: #F6F6F6; font-size: 40px; font-weight: bold; cursor: pointer; transition: 0.3s;}
+.photo-modal .close-modal:hover {color: #B28756;}
 
 .team {background-image: url(/assets/images/bgTeam.png); background-size: cover; background-position: center;}
 .team .default-body {max-width:880px;}
