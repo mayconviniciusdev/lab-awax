@@ -21,7 +21,6 @@
   .team .default-body {max-width: 600px;}
   .testimonials-quote {max-width: 500px;}
 
-  .map {padding: 30px;}
   .map-info {width: auto;}
 
   .footer {display: block;}
@@ -61,7 +60,6 @@
     .fact {margin: 40px 0;}
 
     .contact--split {flex-direction: column;}
-    .map {padding: 30px;}
     .map-info {width: auto;}
 
     .footer {flex-direction: column;}
