@@ -2,21 +2,21 @@ const testimonialsList = [
   {
     name: "Maycon Vinícius",
     role: "IT Analyst",
-    image: "/media/mayconvinicius.jpg",
+    image: "media/mayconvinicius.jpg",
     quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
   },
 
   {
     name: "Maycon Vinícius",
     role: "Desenvolvedor Front-End",
-    image: "/media/mayconvinicius.jpg",
+    image: "media/mayconvinicius.jpg",
     quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
   },
 
   {
     name: "Maycon Vinícius",
     role: "QA Engineer",
-    image: "/media/mayconvinicius.jpg",
+    image: "media/mayconvinicius.jpg",
     quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
   },
 ];
