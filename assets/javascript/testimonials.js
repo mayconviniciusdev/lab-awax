@@ -1,24 +1,24 @@
 const testimonialsList = [
   {
     name: "Maycon Vinícius",
+    role: "IT Analyst",
+    image: "/media/mayconvinicius.jpg",
+    quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
+  },
+
+  {
+    name: "Maycon Vinícius",
     role: "Desenvolvedor Front-End",
     image: "/media/mayconvinicius.jpg",
-    quote: "A AWAX transformou nossa identidade digital com um design incrível e funcional!"
+    quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
   },
 
   {
-    name: "Camila Rocha",
-    role: "Gerente de Marketing",
-    image: "/media/camila.jpg",
-    quote: "O time é extremamente criativo e profissional. Recomendo sem dúvidas!"
+    name: "Maycon Vinícius",
+    role: "QA Engineer",
+    image: "/media/mayconvinicius.jpg",
+    quote: "Trabalhar com a AWAX foi uma experiência incrível! Eles entenderam exatamente a essência da nossa marca e entregaram um design moderno, criativo e cheio de propósito. O resultado superou todas as nossas expectativas."
   },
-
-  {
-    name: "Rafael Lima",
-    role: "CEO da Startup X",
-    image: "/media/rafael.jpg",
-    quote: "Entrega impecável e suporte constante. Superou todas as expectativas!"
-  }
 ];
 
 const testimonials = document.getElementById("testimonials-wrapper");
