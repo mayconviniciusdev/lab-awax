@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
   const projectsData = [
-    { category: 'product', img: '/media/product1.png'},
-    { category: 'graphic', img: '/media/graphic1.png'},
-    { category: 'product', img: '/media/product5.png'},
-    { category: 'graphic', img: '/media/graphic3.png'},
-    { category: 'graphic', img: '/media/graphic2.png'},
-    { category: 'branding', img: '/media/branding1.png'},
-    { category: 'branding', img: '/media/branding2.png'},
-    { category: 'product', img: '/media/product2.png'},
-    { category: 'branding', img: '/media/branding3.png'},
-    { category: 'product', img: '/media/product3.png'},
-    { category: 'uxui', img: '/media/uxui1.png'},
-    { category: 'uxui', img: '/media/uxui2.png'},
-    { category: 'product', img: '/media/product4.png'},
+    { category: 'product', img: 'media/product1.png'},
+    { category: 'graphic', img: 'media/graphic1.png'},
+    { category: 'product', img: 'media/product5.png'},
+    { category: 'graphic', img: 'media/graphic3.png'},
+    { category: 'graphic', img: 'media/graphic2.png'},
+    { category: 'branding', img: 'media/branding1.png'},
+    { category: 'branding', img: 'media/branding2.png'},
+    { category: 'product', img: 'media/product2.png'},
+    { category: 'branding', img: 'media/branding3.png'},
+    { category: 'product', img: 'media/product3.png'},
+    { category: 'uxui', img: 'media/uxui1.png'},
+    { category: 'uxui', img: 'media/uxui2.png'},
+    { category: 'product', img: 'media/product4.png'},
   ];
 
   const filterItems = document.querySelectorAll('.projects-filters li');
